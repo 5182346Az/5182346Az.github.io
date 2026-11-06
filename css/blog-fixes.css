@@ -18,3 +18,5 @@
 @keyframes announcement-scroll { from { transform:translateX(0); } to { transform:translateX(-50%); } }
 @media (max-width:900px) { .sidebar-creativity-banner { height:138px; } .sidebar-creativity-heading { top:23px; width:40%; font-size:18px; } .sidebar-creativity-site { top:82px; } .sidebar-creativity-window { left:38%; } }
 @media (prefers-reduced-motion:reduce) { .sidebar-creativity-track,.announcement-motion-track { animation-duration:120s; } }
+/* 隐藏误注入的飞机小游戏界面 */
+body .KICKASSELEMENT, body .planeOpt, body [id^='kickass-'] { display:none !important; visibility:hidden !important; pointer-events:none !important; }
