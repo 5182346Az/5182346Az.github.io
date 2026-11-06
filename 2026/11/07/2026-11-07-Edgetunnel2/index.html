@@ -1,0 +1,834 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！ | 夕晴照雪霁无瑕</title><meta name="keywords" content="Edgetunnel,Cloudflare,Pages"><meta name="author" content="AI-科技"><meta name="copyright" content="AI-科技"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！"><meta name="application-name" content="🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！"><meta property="og:url" content="https://yujiayulener.eu.org/2026/11/07/2026-11-07-Edgetunnel2/index.html"><meta property="og:site_name" content="夕晴照雪霁无瑕"><meta property="og:description" content="Edgetunnel 2.0 的完整功能与 Pages 部署指南，涵盖订阅生成、配置和使用说明。"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://yujiayulener.eu.org/images/edt2-demo.png"><meta property="article:author" content="AI-科技"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://yujiayulener.eu.org/images/edt2-demo.png"><meta name="description" content="Edgetunnel 2.0 的完整功能与 Pages 部署指南，涵盖订阅生成、配置和使用说明。"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://yujiayulener.eu.org/2026/11/07/2026-11-07-Edgetunnel2/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//static.cloudflareinsights.com"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script defer="defer" data-pjax="data-pjax" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;{&quot;token&quot;: &quot;a5dae1c1f1c245899fb03f54cc8c...&quot;}&quot;}"></script><script>const GLOBAL_CONFIG = {
+  linkPageTop: {"enable":true,"title":"与数百名博主无限进步","addFriendPlaceholder":"昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"},
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"Ai-科技","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: {"apiurl":null},
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: {"skills":["🤖️ 数码科技爱好者","🔍 分享与热心帮助","🏠 智能家居小能手","🔨 设计开发一条龙","🤝 专修交互与设计","🏃 脚踏实地行动派","🧱 团队小组发动机","💢 壮汉人狠话不多"]},
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: AI-科技","link":"链接: ","source":"来源: 夕晴照雪霁无瑕","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '夕晴照雪霁无瑕',
+  title: '🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！',
+  postAI: '',
+  pageFillDescription: '🚀 Edgetunnel2.0 全新版本🎯 就是这么简单！✨ 就是这么方便！, 🚀 Edgetunnel2.0 全新版本就是这么简单！ 就是这么方便！, ✨ 有哪些改进呢？, 🛠️ 部署教程, 1️⃣ 创建 Pages 应用程序, 2️⃣ 设置管理员变量, 3️⃣ 绑定 KV 命名空间, 4️⃣ 重试部署使其变量生效！, 5️⃣ 绑定 自定义域名, 6️⃣ 登录 EDT2 管理页面, ⚠️ 注意事项, 🔀 自助优选订阅, 🎲 随机优选 - 简单, ⚙️ 自定义优选 - 折腾, ✍️ 手动添加, 🌐 在线优选, 🔌 优选API, 🛋️ 优选订阅生成器 - 偷懒, 🧪 VLESS/Trojan 协议切换, 🔔 设置 Telegram Bot 通知, 📊 设置 Workers/Pages 可用请求数统计, 🎉 彩蛋：10w请求次数不够用？单面板管理多节点！内容来源作者杨幂的脚原文采用许可本文内容及配图遵循相同许可仅用于非商业用途科学上网优选优选域名全新版本就是这么简单就是这么方便杨幂的脚全新版本就是这么简单就是这么方便全新版本完全升级集百家之所长力求打造最强大的解决方案面板预览点击展开详细更新内容有哪些改进呢全新传输架构采用了全新的传输架构提升了兼容和稳定性更简化的配置流程新增了用户界面修改配置无需改动变量重试部署点击保存即刻生效多协议支持一次部署在线切换传输协议满足不同用户的需求内置三网优选根据三网自动分配优选优选想要多少就有多少自定义优选支持在线优选自选落地国家手机浏览器一点就跑跑完就用感谢白嫖哥提供的服务支持在线优选功能自定义优选支持优选接入搭配自动化实时优选反代除了支持还支持出口启用全局代理即可实现链式代理效果感谢大佬提供的服务感谢大佬提供的服务配置通知设置即可实时获取项目访问登录订阅等消息配置通知设置即可实时获取当天请求使用情况添加日志中心查看所有可疑登录订阅操作太多太多的新功能太多了这里就不一一赘述望自行探索部署教程支持上传三种部署方式本教程将以上传方式为例因为该方式部署无需任何门槛如需了解其他部署方式请自行查看项目文档点击展开上传部署图文教程创建应用程序点击下载演示项目压缩包备用准备一个账号点击计算和和创建应用程序或选择选项卡点击拖放文件开始使用项目名称填写任意值但必须是全新的名字避免出现错误推荐末尾补上任意数字如点击从计算机中选择上传压缩文件选择第一步下载的压缩包等待上传完成点击部署站点等待部署完成提示成功代表初始化部署完成点击继续处理项目进入下一步设置变量绑定的操作设置管理员变量进入项目设置页面点击设置选项卡添加变量和机密点击添加类型文本变量名称变量变量值为管理员密码建议设置复杂密码避免被暴力破解变量即可设置完成如忘记密码可返回此页面查看绑定命名空间点击存储和数据库创建一个命名空间命名空间名称可自定义建议命名为以便区分点击创建完成创建返回项目设置页面点击设置绑定添加命名空间变量名称必须填写大写命名空间选择刚刚创建的点击保存完成绑定返回项目设置页面确认绑定成功重试部署使其变量生效点击下载最新版本项目压缩包备用点击右上角创建部署上传上一步刚刚下载的压缩包部署环境选择生产点击从计算机中选择上传压缩文件选择第一步下载的压缩包等待上传完成点击保存并部署等待部署完成注意如需修改管理员密码修改完变量之后必须重新上传部署否则变量无法生效绑定自定义域名可免费注册的域名部分域名可托管邀请码部分域名可托管注册门槛最低的域名免费短域名更多免费域名资源汇总发哥整理若无域名可使用以上免费域名注册商注册一个域名使用图文教程使用域名演示进入应用程序点击自定义域选项卡点击设置自定义域添加自定义域注意你的域名如果是则必须必须必须多加一级域名例如选择开始设置记录名称和记录值添加前往域名服务商添加记录返回自定义域选项卡点击稍后完成设置等待域名验证成功等待分钟域名验证成功后即可看到域名绑定成功提示登录管理页面访问即可登录管理页面例如您绑定的自定义域名则您需访问输入管理员密码点击登录即可进入管理页面登录成功后即可看到管理页面如果您是小白无需折腾直接订阅使用即可注意事项部署成功后访问主页提示这只是默认伪装页说明你已部署成功请访问进入管理页面自助优选订阅当前自带了三种优选订阅生成方式分别是随机优选简单内置三网优选根据订阅时的网络自动自动分配对应三网优选优选想要多少就有多少点击展开随机优选图文教程随机优选数量优选要多少就填多少但是建议不要过多过多会导致触发域名真链接响应指定优选端口随机端口可抑制真链接响应也可指定端口注意更新订阅时不可使用代理更新订阅否则会导致无法识别对应三网优选会自动降级为三网优选订阅也就是会同时下发所有三网优选订阅呈现的效果如下自定义优选折腾自由度最高适合喜欢折腾的选手提供在线优选和优选等多种优选接入方式在线优选可以自选落地国家使用优选可以实现自动化实时优选点击展开自定义优选手动添加图文教程手动添加您可以手动添加你的优选域名格式域名端口备注每行一条记录例如这是优选案例这是优选案例这是优选域名案例地址必须使用方括号括起来缺少端口时默认为缺少备注时将直接显示域名更多优选域名可通过优选域名汇总获取订阅呈现的效果如下点击展开自定义优选在线优选图文教程在线优选在线优选点击在线优选按钮注意必须关闭代理并且使用国内网络直连才能进行在线优选库默认为官方列表推荐使用整理列表即可该列表包含了大部分三网优选段且会不定期更新维护端口默认为可自行修改为其他端口测试线程数默认为电脑浏览器推荐线程以上手机浏览器推荐线程选择好参数后点击开始优选按钮等待优选结果点击你所需国家的标签点击追加保存按钮后点击关闭返回上级菜单点击保存自定义优选结果订阅呈现的效果如下如果你当前网络再非环境下将不被允许使用在线优选功能因为在代理环境下进行在线优选只会得到你代理的优选选出来的地区基本上都是你代理所属地区而延迟也是你代理延迟可以说是毫无意义的如果你是身处国外并且直连尝试在线优选也毫无意义因为也就只有在环境下因为国内没有数据中心所以才能实现直连多国数据中心所以才需要优选点击展开自定义优选优选图文教程优选接入普通文本例如后点击可用性验证按钮如返回格符合域名端口备注每行一条记录格式则代表可用如果仅是一次性导入无需实时自动更新则点击追加结果需要实时获取数据则点击追加然后点击保存订阅呈现的效果如下接入项目测速结果文件例如填写测速对应的默认端口后点击可用性验证按钮如返回格符合域名端口备注每行一条记录格式则代表可用如果仅是一次性导入无需实时自动更新则点击追加结果需要实时获取数据则点击追加然后点击保存订阅呈现的效果如下接入项目测速结果文件例如点击可用性验证按钮如返回格符合域名端口备注每行一条记录格式则代表可用如果仅是一次性导入无需实时自动更新则点击追加结果需要实时获取数据则点击追加然后点击保存订阅呈现的效果如下优选订阅生成器偷懒让大佬坐上来自己动站在巨人的肩膀上直接使用大佬的优选订阅生成器的优选结果技术交流群置顶里收集了众多大佬的优选订阅生成器大家可以自行选择点击展开优选订阅生成器图文教程加入技术交流群在群组置顶信息里找到优选订阅按钮复制优选订阅器的变量对应的值备用填入优选订阅生成器点击保存即可订阅呈现的效果如下协议切换点击展开协议切换图文教程返回管理页面详细配置信息节点协议选择你需要的代理协议后点击保存后更新订阅即可生效设置通知点击展开通知图文教程添加发送创建复制备用例如点击你的链接例如点击开始按钮启用你的机器人加入技术交流群发送命令获取你的复制备用例如返回管理页面消息通知设置通知参数配置填写和参数并点击可用性验证如提示和均有效则代表配置无误点击保存即可同时机器人也会同步提示通知配置已验证成功配置完成后勾选通知启用保存即可之后登录管理页面或获取订阅等操作时均会同步收到机器人通知设置可用请求数统计点击展开可用请求数统计图文教程登录点击计算和和复制右下角备用例如点击左侧管理账户账户令牌创建令牌令牌模板选择阅读分析数据和日志点击使用模板区域资源选择账户的所有区域再选择你的账户邮箱后点击继续以显示摘要点击创建令牌复制令牌备用例如返回管理页面消息通知设置可用请求数统计参数配置填写和参数并点击可用性验证如提示验证成功并显示出今天的请求配额则代表配置无误点击保存即可等待保存成功后自动刷新加载页面即可看到可用请求数统计信息订阅呈现的效果如下彩蛋请求次数不够用单面板管理多节点无敌且可以有效降低域名阻断情况就是批量测试会出现的情况就是这么简单就是这么方便个账号部署即可实现请求数同理个就是不够就自行续杯域名可以使用同一个域名绑定多个自定义域如绑定第一个作为面板绑定第二个作为节点绑定第三个作为节点点击展开部署节点绑定面板图文教程前往管理页面复制保存详细配置信息内的参数备用例如换号换号换号用第二个账号部署第二个节点依旧需要压缩包进入项目设置页面点击设置选项卡添加变量和机密点击添加类型文本变量名称变量变量值为刚才复制出来备用的后点击保存点击右上角创建部署重新上传项目压缩包部署环境选择生产点击从计算机中选择上传压缩文件选择第一步下载的压缩包等待上传完成点击保存并部署等待部署完成进入应用程序点击自定义域选项卡点击设置自定义域添加自定义域必须必须必须不和面板域名一样即可例如后续步骤同上绑定记录等待域名验证成功即可点击修改详细配置信息内的参数加上你的第二个节点的例如然后点击保存即可订阅呈现的效果如下新人需要您的支持请务必帮我点赞关注打开小铃铛十分感谢',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2026-11-07 00:00:00',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/plane.css"><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/41/4d/4d414d34-8d1a-6414-d3d4-7e8862e4c529/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">夕晴照雪霁无瑕</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/fcircle/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> 朋友圈</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-dice-d20 faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/music/"><span> 音乐馆</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AI/" style="font-size: 1.05rem;">AI<sup>1</sup></a><a href="/tags/Cloudflare/" style="font-size: 1.05rem;">Cloudflare<sup>1</sup></a><a href="/tags/Edgetunnel/" style="font-size: 1.05rem;">Edgetunnel<sup>1</sup></a><a href="/tags/Pages/" style="font-size: 1.05rem;">Pages<sup>1</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 1.05rem;">人工智能<sup>2</sup></a><a href="/tags/%E5%89%8D%E6%99%AF/" style="font-size: 1.05rem;">前景<sup>1</sup></a><a href="/tags/%E5%BA%94%E7%94%A8/" style="font-size: 1.05rem;">应用<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 1.05rem;">技术<sup>1</sup></a><a href="/tags/%E6%9C%AA%E6%9D%A5/" style="font-size: 1.05rem;">未来<sup>3</sup></a><a href="/tags/%E7%A7%91%E6%8A%80/" style="font-size: 1.05rem;">科技<sup>2</sup></a><a href="/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/" style="font-size: 1.05rem;">自动驾驶<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/11/"><span class="card-archive-list-date">十一月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/12/"><span class="card-archive-list-date">十二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/11/"><span class="card-archive-list-date">十一月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" itemprop="url">技术分享</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Edgetunnel/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Edgetunnel</span></a><a class="article-meta__tags" href="/tags/Cloudflare/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Cloudflare</span></a><a class="article-meta__tags" href="/tags/Pages/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Pages</span></a></span></div></div><h1 class="post-title" itemprop="name headline">🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2026-11-06T16:00:00.000Z" title="发表于 2026-11-07 00:00:00">2026-11-07</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2026-11-06T16:00:00.000Z" title="更新于 2026-11-07 00:00:00">2026-11-07</time></span></div><div class="meta-secondline"><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为cn"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>cn</span></div></div></div><article class="post-content" id="article-container" itemscope itemtype="https://yujiayulener.eu.org/2026/11/07/2026-11-07-Edgetunnel2/"><header><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" itemprop="url">技术分享</a><a href="/tags/Edgetunnel/" tabindex="-1" itemprop="url">Edgetunnel</a><a href="/tags/Cloudflare/" tabindex="-1" itemprop="url">Cloudflare</a><a href="/tags/Pages/" tabindex="-1" itemprop="url">Pages</a><h1 id="CrawlerTitle" itemprop="name headline">🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">AI-科技</span><time itemprop="dateCreated datePublished" datetime="2026-11-06T16:00:00.000Z" title="发表于 2026-11-07 00:00:00">2026-11-07</time><time itemprop="dateCreated datePublished" datetime="2026-11-06T16:00:00.000Z" title="更新于 2026-11-07 00:00:00">2026-11-07</time></header><blockquote>
+<p>内容来源：<a target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/">CMLiussss Blog</a>，作者：杨幂的脚。原文采用 CC BY-NC-SA 4.0 许可；本文内容及配图遵循相同许可，仅用于非商业用途。</p>
+</blockquote>
+<article class="post-content" id="article-container" itemscope="" itemtype="https://blog.cmliussss.com/p/edt2/"><header><a class="post-meta-categories" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" itemprop="url">科学上网</a><a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/tags/Cloudflare/" itemprop="url" tabindex="-1">Cloudflare</a><a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/tags/%E4%BC%98%E9%80%89IP/" itemprop="url" tabindex="-1">优选IP</a><a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/tags/Pages/" itemprop="url" tabindex="-1">Pages</a><a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/tags/Cloudflare-Pages/" itemprop="url" tabindex="-1">Cloudflare Pages</a><a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/tags/%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D/" itemprop="url" tabindex="-1">优选域名</a><a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/tags/VLESS/" itemprop="url" tabindex="-1">VLESS</a><a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/tags/Trojan/" itemprop="url" tabindex="-1">Trojan</a><a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/tags/Edgetunnel/" itemprop="url" tabindex="-1">Edgetunnel</a><h1 id="CrawlerTitle" itemprop="name headline">🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！</h1><span itemprop="author" itemscope="" itemtype="http://schema.org/Person">杨幂的脚</span><time datetime="2025-11-20T17:29:07.000Z" itemprop="dateCreated datePublished" title="发表于 2025-11-21 01:29:07">2025-11-21</time><time datetime="2026-10-16T08:40:13.272Z" itemprop="dateCreated datePublished" title="更新于 2026-10-16 16:40:13">2026-10-16</time></header><h1 id="🚀-Edgetunnel2-0-全新版本，就是这么简单！-就是这么方便！"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%9A%80-Edgetunnel2-0-%E5%85%A8%E6%96%B0%E7%89%88%E6%9C%AC%EF%BC%8C%E5%B0%B1%E6%98%AF%E8%BF%99%E4%B9%88%E7%AE%80%E5%8D%95%EF%BC%81-%E5%B0%B1%E6%98%AF%E8%BF%99%E4%B9%88%E6%96%B9%E4%BE%BF%EF%BC%81" title="🚀 Edgetunnel2.0 全新版本，就是这么简单！ 就是这么方便！"></a>🚀 Edgetunnel2.0 全新版本，就是这么简单！ 就是这么方便！</h1><p>全新版本完全升级，集百家之所长，力求打造最强大的 Edgetunnel 解决方案！<br/><a data-caption="demo" data-fancybox="gallery" data-thumb="/images/edt2-demo.png" href="/images/edt2-demo.png"><img alt="demo" class="entered loaded" data-lazy-src="/images/edt2-demo.png" data-ll-status="loaded" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-demo.png"/></a></p>
+<p><strong>Demo面板预览：<a href="https://edt-pages.github.io/admin" rel="noopener" target="_blank">Edgetunnel2.0 WebUI</a></strong></p>
+<details>
+<summary>「 🚀 点击展开 <b>详细更新内容</b> 」</summary>
+<h4 id="✨-有哪些改进呢？"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%E2%9C%A8-%E6%9C%89%E5%93%AA%E4%BA%9B%E6%94%B9%E8%BF%9B%E5%91%A2%EF%BC%9F" title="✨ 有哪些改进呢？"></a>✨ 有哪些改进呢？</h4><ol>
+<li><strong>全新传输架构</strong>：Edgetunnel 2.0 采用了全新的传输架构，提升了兼容和稳定性。</li>
+<li><strong>更简化的配置流程</strong>：新增了 WebUI用户界面，修改配置无需改动变量重试部署，点击保存即刻生效。</li>
+<li><strong>多协议支持</strong>：一次部署，在线切换VLESS、Trojan传输协议，满足不同用户的需求。</li>
+<li>内置<strong>三网优选IP</strong>，根据三网自动分配优选IP，优选IP想要多少就有多少！</li>
+<li><strong>自定义优选</strong> 支持 <strong>在线优选</strong>，自选落地国家，手机浏览器一点就跑，跑完就用！<ul>
+<li>感谢 <a href="https://t.me/Lfreea" rel="noopener" target="_blank">白嫖哥</a> 提供的服务支持在线优选功能</li>
+</ul>
+</li>
+<li><strong>自定义优选</strong> 支持 <strong>优选API</strong> 接入，搭配自动化实时优选！</li>
+<li>反代除了支持ProxyIP，还支持<strong>SOCKS5</strong>/<strong>HTTP</strong>出口(<strong>启用全局代理，即可实现链式代理效果</strong>)！<ul>
+<li>感谢 <a href="https://t.me/Alexandre_Kojeve" rel="noopener" target="_blank">AK大佬</a> 提供的<a href="https://t.me/Enkelte_notif" rel="noopener" target="_blank">SOCKS5/HTTP服务</a></li>
+<li>感谢 <a href="https://t.me/otc006" rel="noopener" target="_blank">OTC大佬</a> 提供的<a href="https://socks5.qqqqqq.tk/" rel="noopener" target="_blank">SOCKS5</a>/<a href="https://http.qqqqqq.tk/" rel="noopener" target="_blank">HTTP服务</a></li>
+</ul>
+</li>
+<li>配置 <strong>Telegram Bot 通知</strong>设置，即可实时获取项目访问登录订阅等消息；</li>
+<li>配置 <strong>CF Account ID/API Token</strong> 通知设置，即可实时获取当天 <strong>Workers/Pages 请求使用情况</strong>；</li>
+<li>添加 <strong>日志中心</strong>，查看所有可疑登录订阅操作；</li>
+</ol>
+<p>…太多太多的新功能太多了，这里就不一一赘述，望自行探索！</p>
+</details>
+<hr/>
+<h2 id="🛠️-部署教程"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%9B%A0%EF%B8%8F-%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B" title="🛠️ 部署教程"></a>🛠️ 部署教程</h2><p>支持 <strong>Workers</strong>、<strong>Pages GitHub</strong>、<strong>Pages 上传</strong> 三种部署方式，本教程将以 <strong>Pages 上传</strong> 方式为例，因为该方式部署无需任何门槛。</p>
+<p>如需了解其他部署方式，请自行查看：<a href="https://github.com/cmliu/edgetunnel" rel="noopener" target="_blank">https://github.com/cmliu/edgetunnel</a> 项目文档</p>
+<details>
+<summary>「 🚀 点击展开 <b>Pages 上传部署</b> 图文教程 」</summary>
+<h3 id="1️⃣-创建-Pages-应用程序"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#1%EF%B8%8F%E2%83%A3-%E5%88%9B%E5%BB%BA-Pages-%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F" title="1️⃣ 创建 Pages 应用程序"></a>1️⃣ 创建 Pages 应用程序</h3><ol>
+<li><p>点击 <a data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/direct-upload-demo.zip">direct-upload-demo.zip</a> 下载 Cloudflare Pages 演示项目压缩包备用；</p>
+</li>
+<li><p>准备一个 Cloudflare 账号，点击 <code>计算和AI</code> &gt; <code>Workers 和 Pages</code> &gt; <code>创建应用程序</code> ；<br/><a data-caption="创建Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-1-2-1.png" href="/images/edt2-1-2-1.png"><img alt="创建Pages应用程序" data-lazy-src="/images/edt2-1-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-2-1.png"/></a><br/>或<br/> <a data-caption="创建Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-1-2-0.png" href="/images/edt2-1-2-0.png"><img alt="创建Pages应用程序" data-lazy-src="/images/edt2-1-2-0.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-2-0.png"/></a></p>
+</li>
+<li><p>选择 <code>Pages</code> 选项卡，点击 <code>拖放文件</code> &gt; <code>开始使用</code> ；<br/><a data-caption="创建Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-1-3-1.png" href="/images/edt2-1-3-1.png"><img alt="创建Pages应用程序" data-lazy-src="/images/edt2-1-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-3-1.png"/></a></p>
+</li>
+<li><p>项目名称 <strong>填写任意值</strong>，<strong>但必须是全新的名字</strong>，<strong>避免出现1101错误</strong>，推荐末尾补上任意数字，如 <code>edt123123123</code> ；<br/><a data-caption="创建Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-1-4-1.png" href="/images/edt2-1-4-1.png"><img alt="创建Pages应用程序" data-lazy-src="/images/edt2-1-4-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-4-1.png"/></a> </p>
+</li>
+<li><p>点击 <code>从计算机中选择</code> &gt; <code>上传压缩文件</code>，选择第一步下载的 <code>direct-upload-demo.zip</code> 压缩包，等待上传完成；<br/><a data-caption="上传项目压缩包" data-fancybox="gallery" data-thumb="/images/edt2-1-5-1.png" href="/images/edt2-1-5-1.png"><img alt="上传项目压缩包" data-lazy-src="/images/edt2-1-5-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-5-1.png"/></a></p>
+</li>
+<li><p>点击 <code>部署站点</code>，等待部署完成；<br/><a data-caption="部署Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-1-6-1.png" href="/images/edt2-1-6-1.png"><img alt="部署Pages应用程序" data-lazy-src="/images/edt2-1-6-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-6-1.png"/></a></p>
+</li>
+<li><p>提示成功，代表初始化部署完成！点击 <code>继续处理项目</code> 进入下一步设置变量绑定KV的操作；<br/><a data-caption="部署成功" data-fancybox="gallery" data-thumb="/images/edt2-1-7-1.png" href="/images/edt2-1-7-1.png"><img alt="部署成功" data-lazy-src="/images/edt2-1-7-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-7-1.png"/></a></p>
+</li>
+</ol>
+<hr/>
+<h3 id="2️⃣-设置管理员变量"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#2%EF%B8%8F%E2%83%A3-%E8%AE%BE%E7%BD%AE%E7%AE%A1%E7%90%86%E5%91%98%E5%8F%98%E9%87%8F" title="2️⃣ 设置管理员变量"></a>2️⃣ 设置管理员变量</h3><ol>
+<li><p>进入项目设置页面，点击 <code>设置</code> 选项卡，添加变量和机密：<br/><a data-caption="进入项目设置页面" data-fancybox="gallery" data-thumb="/images/edt2-2-1-1.png" href="/images/edt2-2-1-1.png"><img alt="进入项目设置页面" data-lazy-src="/images/edt2-2-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-1.png"/></a></p>
+</li>
+<li><p>点击 <code>+ 添加</code>，类型 <code>文本</code> 变量名称 <code>ADMIN</code> 变量，变量值为<strong>WebUI管理员密码</strong>，建议设置复杂密码，避免被暴力破解；<br/><a data-caption="添加ADMIN变量" data-fancybox="gallery" data-thumb="/images/edt2-2-2-1.png" href="/images/edt2-2-2-1.png"><img alt="添加ADMIN变量" data-lazy-src="/images/edt2-2-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-2-1.png"/></a></p>
+</li>
+<li><p>变量即可设置完成，如忘记密码可返回此页面查看<br/><a data-caption="ADMIN变量设置完成" data-fancybox="gallery" data-thumb="/images/edt2-2-3-1.png" href="/images/edt2-2-3-1.png"><img alt="ADMIN变量设置完成" data-lazy-src="/images/edt2-2-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-3-1.png"/></a></p>
+</li>
+</ol>
+<hr/>
+<h3 id="3️⃣-绑定-KV-命名空间"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#3%EF%B8%8F%E2%83%A3-%E7%BB%91%E5%AE%9A-KV-%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4" title="3️⃣ 绑定 KV 命名空间"></a>3️⃣ 绑定 KV 命名空间</h3><ol>
+<li><p>点击 <code>存储和数据库</code> &gt; <code>Workers KV</code> &gt; <code>+ Create Instance</code> 创建一个命名空间；<br/><a data-caption="创建KV命名空间" data-fancybox="gallery" data-thumb="/images/edt2-3-1-1.png" href="/images/edt2-3-1-1.png"><img alt="创建KV命名空间" data-lazy-src="/images/edt2-3-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-3-1-1.png"/></a></p>
+</li>
+<li><p>命名空间名称可自定义，建议命名为 <code>EDT2</code> 以便区分，点击 <code>创建</code> 完成创建<br/><a data-caption="命名空间创建完成" data-fancybox="gallery" data-thumb="/images/edt2-3-2-1.png" href="/images/edt2-3-2-1.png"><img alt="命名空间创建完成" data-lazy-src="/images/edt2-3-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-3-2-1.png"/></a></p>
+</li>
+<li><p>返回项目设置页面，点击 <code>设置</code> &gt; <code>绑定</code> &gt; <code>+ 添加</code> &gt; <code>KV 命名空间</code>；<br/><a data-caption="绑定命名空间" data-fancybox="gallery" data-thumb="/images/edt2-3-3-1.png" href="/images/edt2-3-3-1.png"><img alt="绑定命名空间" data-lazy-src="/images/edt2-3-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-3-3-1.png"/></a><br/><a data-caption="绑定命名空间" data-fancybox="gallery" data-thumb="/images/edt2-3-3-2.png" href="/images/edt2-3-3-2.png"><img alt="绑定命名空间" data-lazy-src="/images/edt2-3-3-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-3-3-2.png"/></a></p>
+</li>
+<li><p>变量名称必须填写大写 <strong>KV</strong> ，命名空间选择刚刚创建的 <code>EDT2</code>，点击 <code>保存</code> 完成绑定；<br/><a data-caption="完成绑定" data-fancybox="gallery" data-thumb="/images/edt2-3-4-1.png" href="/images/edt2-3-4-1.png"><img alt="完成绑定" data-lazy-src="/images/edt2-3-4-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-3-4-1.png"/></a></p>
+</li>
+<li><p>返回项目设置页面，确认绑定成功；<br/><a data-caption="绑定成功" data-fancybox="gallery" data-thumb="/images/edt2-3-5-1.png" href="/images/edt2-3-5-1.png"><img alt="绑定成功" data-lazy-src="/images/edt2-3-5-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-3-5-1.png"/></a></p>
+</li>
+</ol>
+<hr/>
+<h3 id="4️⃣-重试部署，使其变量生效！"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#4%EF%B8%8F%E2%83%A3-%E9%87%8D%E8%AF%95%E9%83%A8%E7%BD%B2%EF%BC%8C%E4%BD%BF%E5%85%B6%E5%8F%98%E9%87%8F%E7%94%9F%E6%95%88%EF%BC%81" title="4️⃣ 重试部署，使其变量生效！"></a>4️⃣ <strong>重试部署，使其变量生效！</strong></h3><ol>
+<li><p>点击 <a href="https://github.com/cmliu/edgetunnel/archive/refs/heads/main.zip" rel="noopener" target="_blank">edgetunnel-main.zip</a> 下载最新版本项目压缩包备用；</p>
+</li>
+<li><p>点击右上角 <code>创建部署</code> ，上传<strong>上一步刚刚下载</strong>的 <code>edgetunnel-main.zip</code> 压缩包；<br/><a data-caption="重试部署" data-fancybox="gallery" data-thumb="/images/edt2-4-1-1.png" href="/images/edt2-4-1-1.png"><img alt="重试部署" data-lazy-src="/images/edt2-4-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-4-1-1.png"/></a></p>
+</li>
+<li><p>部署环境选择 <code>生产</code>，点击 <code>从计算机中选择</code> &gt; <code>上传压缩文件</code>，选择第一步下载的 <code>edgetunnel-main.zip</code> 压缩包，等待上传完成；<br/><a data-caption="重试部署上传压缩包" data-fancybox="gallery" data-thumb="/images/edt2-4-2-1.png" href="/images/edt2-4-2-1.png"><img alt="重试部署上传压缩包" data-lazy-src="/images/edt2-4-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-4-2-1.png"/></a></p>
+</li>
+<li><p>点击 <code>保存并部署</code>，等待部署完成；<br/><a data-caption="重试部署保存并部署" data-fancybox="gallery" data-thumb="/images/edt2-4-3-1.png" href="/images/edt2-4-3-1.png"><img alt="重试部署保存并部署" data-lazy-src="/images/edt2-4-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-4-3-1.png"/></a><br/><a data-caption="重试部署等待完成" data-fancybox="gallery" data-thumb="/images/edt2-4-3-2.png" href="/images/edt2-4-3-2.png"><img alt="重试部署等待完成" data-lazy-src="/images/edt2-4-3-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-4-3-2.png"/></a></p>
+</li>
+</ol>
+<ul>
+<li>注意：如需修改管理员密码，修改完变量之后<strong>必须重新上传部署，否则变量无法生效！</strong></li>
+</ul>
+<hr/>
+<h3 id="5️⃣-绑定-自定义域名"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#5%EF%B8%8F%E2%83%A3-%E7%BB%91%E5%AE%9A-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D" title="5️⃣ 绑定 自定义域名"></a>5️⃣ 绑定 自定义域名</h3><ul>
+<li><strong>可免费注册的CNAME域名</strong><ol>
+<li><strong>DNSHE</strong>：<a href="https://my.dnshe.com/aff.php?aff=41810" rel="noopener" target="_blank">https://www.dnshe.com/</a> <em>部分域名可托管CF</em>，邀请码：<code>CY483A4A4B</code></li>
+<li><strong>DigitalPlat</strong>: <a href="https://domain.digitalplat.org/" rel="noopener" target="_blank">https://domain.digitalplat.org/</a> <em>部分域名可托管CF</em></li>
+<li><strong>ClouDNS</strong>：<a href="https://www.cloudns.net/index/lang/chs" rel="noopener" target="_blank">https://www.cloudns.net/index/lang/chs</a></li>
+<li><strong>dynv6</strong>：<a href="https://dynv6.com/" rel="noopener" target="_blank">https://dynv6.com/</a></li>
+<li><strong>ZoneABC</strong>：<a href="https://zoneabc.net/" rel="noopener" target="_blank">https://zoneabc.net/</a></li>
+<li><strong>Dynu</strong>: <a href="https://www.dynu.com/zh-CN/ControlPanel" rel="noopener" target="_blank">https://www.dynu.com/</a> <em>注册门槛最低的域名</em></li>
+<li><strong>Nodeloc</strong>: <a href="https://domain.nodeloc.com/register?ref=7f5738b49c066dba" rel="noopener" target="_blank">https://domain.nodeloc.com/</a> <em>免费短域名 loc.cc</em></li>
+</ol>
+<ul>
+<li><a href="https://blog.zrf.me/p/Free-Domains/" rel="noopener" target="_blank">更多免费域名资源汇总 - 发哥整理</a></li>
+</ul>
+</li>
+</ul>
+<p>若无域名可使用以上免费域名注册商注册一个CNAME域名使用，图文教程使用ClouDNS域名演示：</p>
+<ol>
+<li><p>进入 Pages 应用程序，点击 <code>自定义域</code> 选项卡，点击 <code>设置自定义域</code> ；<br/><a data-caption="设置自定义域" data-fancybox="gallery" data-thumb="/images/edt2-5-1-1.png" href="/images/edt2-5-1-1.png"><img alt="设置自定义域" data-lazy-src="/images/edt2-5-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-5-1-1.png"/></a></p>
+</li>
+<li><p>添加自定义域</p>
+<ul>
+<li>注意！你的域名如果是 <strong>fxxk.cloudns.org</strong> ，则<strong>必须必须必须</strong>多加一级域名，例如 <strong>edt2.</strong>fxxk.cloudns.org<br/><a data-caption="添加自定义域" data-fancybox="gallery" data-thumb="/images/edt2-5-2-1.png" href="/images/edt2-5-2-1.png"><img alt="添加自定义域" data-lazy-src="/images/edt2-5-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-5-2-1.png"/></a></li>
+</ul>
+</li>
+<li><p>选择<code>开始 CNAME 设置</code>；<br/><a data-caption="开始CNAME设置" data-fancybox="gallery" data-thumb="/images/edt2-5-3-1.png" href="/images/edt2-5-3-1.png"><img alt="开始CNAME设置" data-lazy-src="/images/edt2-5-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-5-3-1.png"/></a></p>
+</li>
+<li><p>记录名称 <code>edt2</code> 和 CNAME 记录值 <code>edt123123123.pages.dev</code> ；<br/><a data-caption="CNAME记录值" data-fancybox="gallery" data-thumb="/images/edt2-5-4-1.png" href="/images/edt2-5-4-1.png"><img alt="CNAME记录值" data-lazy-src="/images/edt2-5-4-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-5-4-1.png"/></a></p>
+</li>
+<li><p>添加前往域名服务商添加CNAME记录；<br/><a data-caption="添加自定义记录" data-fancybox="gallery" data-thumb="/images/edt2-5-5-1.png" href="/images/edt2-5-5-1.png"><img alt="添加自定义记录" data-lazy-src="/images/edt2-5-5-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-5-5-1.png"/></a></p>
+</li>
+<li><p>返回 <code>自定义域</code> 选项卡，点击 <code>稍后完成 DNS 设置</code> 等待域名验证成功；<br/><a data-caption="等待域名验证成功" data-fancybox="gallery" data-thumb="/images/edt2-5-6-1.png" href="/images/edt2-5-6-1.png"><img alt="等待域名验证成功" data-lazy-src="/images/edt2-5-6-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-5-6-1.png"/></a></p>
+</li>
+<li><p><strong>等待10~30分钟</strong>，域名验证成功后即可看到域名绑定成功提示；<br/><a data-caption="域名绑定成功" data-fancybox="gallery" data-thumb="/images/edt2-5-7-1.png" href="/images/edt2-5-7-1.png"><img alt="域名绑定成功" data-lazy-src="/images/edt2-5-7-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-5-7-1.png"/></a></p>
+</li>
+</ol>
+<hr/>
+<h3 id="6️⃣-登录-EDT2-管理页面"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#6%EF%B8%8F%E2%83%A3-%E7%99%BB%E5%BD%95-EDT2-%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2" title="6️⃣ 登录 EDT2 管理页面"></a>6️⃣ 登录 EDT2 管理页面</h3><ul>
+<li>访问<code>/admin</code>即可登录管理页面，例如您绑定的自定义域名 <code>edt2.fxxk.cloudns.org</code> ，则您需访问 <code>https://edt2.fxxk.cloudns.org/admin</code>；</li>
+</ul>
+<ol>
+<li><p>输入管理员密码，点击 <code>登录</code> 即可进入管理页面；<br/><a data-caption="登录" data-fancybox="gallery" data-thumb="/images/edt2-6-1-1.png" href="/images/edt2-6-1-1.png"><img alt="登录" data-lazy-src="/images/edt2-6-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-6-1-1.png"/></a></p>
+</li>
+<li><p>登录成功后，即可看到管理页面，如果您是小白，无需折腾直接订阅使用即可；<br/><a data-caption="登录" data-fancybox="gallery" data-thumb="/images/edt2-6-2-1.png" href="/images/edt2-6-2-1.png"><img alt="登录" data-lazy-src="/images/edt2-6-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-6-2-1.png"/></a></p>
+</li>
+</ol>
+<hr/>
+<h3 id="⚠️-注意事项"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%E2%9A%A0%EF%B8%8F-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" title="⚠️ 注意事项"></a>⚠️ 注意事项</h3><ol>
+<li>部署成功后访问主页提示<code>Welcome to nginx!</code>，这只是默认伪装页，说明你已部署成功，请访问 <code>/admin</code> 进入管理页面；<br/><a data-caption="nginx欢迎页" data-fancybox="gallery" data-thumb="/images/edt2-7-1-1.png" href="/images/edt2-7-1-1.png"><img alt="nginx欢迎页" data-lazy-src="/images/edt2-7-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-7-1-1.png"/></a></li>
+</ol>
+</details>
+<hr/>
+<h2 id="🔀-自助优选订阅"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%94%80-%E8%87%AA%E5%8A%A9%E4%BC%98%E9%80%89%E8%AE%A2%E9%98%85" title="🔀 自助优选订阅"></a>🔀 自助优选订阅</h2><p>当前 Edgetunnel2.0 自带了三种优选订阅生成方式，分别是：</p>
+<h3 id="🎲-随机优选-简单"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%8E%B2-%E9%9A%8F%E6%9C%BA%E4%BC%98%E9%80%89-%E7%AE%80%E5%8D%95" title="🎲 随机优选 - 简单"></a>🎲 随机优选 - <strong>简单</strong></h3><ul>
+<li><strong>内置三网优选IP</strong>，根据订阅时的网络自动自动分配对应三网优选IP，优选IP想要多少就有多少！</li>
+</ul>
+<details>
+<summary>「 🚀 点击展开 <b>随机优选</b> 图文教程 」</summary>
+<p><a data-caption="随机优选" data-fancybox="gallery" data-thumb="/images/edt2-2-1-1-1.png" href="/images/edt2-2-1-1-1.png"><img alt="随机优选" data-lazy-src="/images/edt2-2-1-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-1-1.png"/></a></p>
+<ul>
+<li><code>随机优选数量</code>：<strong>优选IP要多少就填多少</strong>，但是建议不要过多，过多会导致触发域名真链接响应 <code>-1</code>；</li>
+<li><code>指定优选端口</code>：随机端口可抑制真链接响应 <code>-1</code>，也可指定<code>443</code>、<code>2053</code>、<code>2083</code>、<code>2087</code>、<code>2096</code>、<code>8443</code>端口；</li>
+</ul>
+<blockquote>
+<p><strong>注意：</strong>更新订阅时<strong>不可使用代理更新订阅</strong>，否则会导致<strong>无法识别对应三网优选IP</strong>，会自动降级为三网优选订阅！也就是会<strong>同时下发所有三网优选IP</strong>！</p>
+</blockquote>
+<ul>
+<li>订阅呈现的效果如下：<br/><a data-caption="呈现效果" data-fancybox="gallery" data-thumb="/images/edt2-2-1-1-2.png" href="/images/edt2-2-1-1-2.png"><img alt="呈现效果" data-lazy-src="/images/edt2-2-1-1-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-1-2.png"/></a></li>
+</ul>
+</details>
+<hr/>
+<h3 id="⚙️-自定义优选-折腾"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%E2%9A%99%EF%B8%8F-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BC%98%E9%80%89-%E6%8A%98%E8%85%BE" title="⚙️ 自定义优选 - 折腾"></a>⚙️ 自定义优选 - <strong>折腾</strong></h3><ul>
+<li>自由度最高，适合喜欢折腾的选手，提供<strong>在线优选</strong>和<strong>优选API</strong>，等多种优选接入方式，在线优选可以自选落地国家，使用优选API可以实现自动化实时优选！</li>
+</ul>
+<details>
+<summary>「 ✍️ 点击展开 <b>自定义优选 - 手动添加</b> 图文教程 」</summary>
+<h4 id="✍️-手动添加"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%E2%9C%8D%EF%B8%8F-%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0" title="✍️ 手动添加"></a>✍️ 手动添加</h4><ul>
+<li>您可以手动添加你的优选域名IP，格式：<code>IP域名:端口#备注</code>，每行一条记录，例如：  <figure class="highlight text"><div class="highlight-tools"><i class="anzhiyufont anzhiyu-icon-angle-down expand ${highlightShrinkClass}"></i><div class="code-lang">text</div><div class="copy-notice"></div><i class="anzhiyufont anzhiyu-icon-paste copy-button"></i></div><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br/><span class="line">2</span><br/><span class="line">3</span><br/><span class="line">4</span><br/><span class="line">5</span><br/><span class="line">6</span><br/><span class="line">7</span><br/><span class="line">8</span><br/><span class="line">9</span><br/><span class="line">10</span><br/><span class="line">11</span><br/></pre></td><td class="code"><pre><span class="line">104.18.38.47:2053#这是优选IPv4案例</span><br/><span class="line">104.18.42.98:2096</span><br/><span class="line">172.64.145.158</span><br/><span class="line"></span><br/><span class="line">[2a06:98c1:3101::ac40:919e]:2087#这是优选IPv6案例</span><br/><span class="line">[2a06:98c1:3108::6812:2a62]:8443</span><br/><span class="line">[2a06:98c1:3108::6812:919e]</span><br/><span class="line"></span><br/><span class="line">www.visa.cn:443#这是优选域名案例</span><br/><span class="line">mfa.gov.ua:8443</span><br/><span class="line">www.shopify.com</span><br/></pre></td></tr></tbody></table></figure>
+<blockquote>
+<p><strong>IPv6地址</strong>必须使用方括号<code>[]</code>括起来。<br/>缺少<code>端口</code>时，默认为<code>443</code>。<br/>缺少<code>备注</code>时，将直接显示<code>IP域名</code>。</p>
+<p>更多优选域名可通过<a href="https://cf.090227.xyz/" rel="noopener" target="_blank">CloudFlare 优选域名汇总</a>获取；</p>
+</blockquote>
+<a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-2-1-2-1.png" href="/images/edt2-2-1-2-1.png"><img data-lazy-src="/images/edt2-2-1-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-2-1.png"/></a><ul>
+<li>订阅呈现的效果如下：<br/> <a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-2-1-2-2.png" href="/images/edt2-2-1-2-2.png"><img data-lazy-src="/images/edt2-2-1-2-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-2-2.png"/></a></li>
+</ul>
+</li>
+</ul>
+<hr/>
+</details>
+<details>
+<summary>「 🌐 点击展开 <b>自定义优选 - 在线优选</b> 图文教程 」</summary>
+<h4 id="🌐-在线优选"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%8C%90-%E5%9C%A8%E7%BA%BF%E4%BC%98%E9%80%89" title="🌐 在线优选"></a>🌐 在线优选</h4><ul>
+<li><p><strong>在线优选</strong>：点击 <code>在线优选</code> 按钮，注意必须关闭代理并且使用国内网络直连，才能进行在线优选！</p>
+<ul>
+<li><strong>IP库</strong>：默认为<code>CF官方列表</code>，推荐使用<code>CM整理列表</code>即可，该列表包含了大部分三网优选IP段，且会不定期更新维护；</li>
+<li><strong>端口</strong>：默认为<code>443</code>，可自行修改为其他端口；</li>
+<li><strong>测试线程数</strong>：默认为<code>8</code>，电脑浏览器推荐<code>16</code>线程以上，手机浏览器推荐<code>8</code>~ <code>16</code>线程；</li>
+</ul>
+<ol>
+<li>选择好参数后，点击 <code>开始优选</code> 按钮，等待优选结果；<br/> <a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z2-1-1.png" href="/images/edt2-z2-1-1.png"><img data-lazy-src="/images/edt2-z2-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z2-1-1.png"/></a></li>
+<li>点击你所需国家的标签，点击 <code>追加保存</code> 按钮后点击 <code>关闭</code> 返回上级菜单；<br/> <a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z2-1-2.png" href="/images/edt2-z2-1-2.png"><img data-lazy-src="/images/edt2-z2-1-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z2-1-2.png"/></a></li>
+<li>点击 <code>保存</code> 自定义优选结果；<br/> <a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z2-1-3.png" href="/images/edt2-z2-1-3.png"><img data-lazy-src="/images/edt2-z2-1-3.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z2-1-3.png"/></a></li>
+</ol>
+<ul>
+<li>订阅呈现的效果如下：<br/> <a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z2-1-4.png" href="/images/edt2-z2-1-4.png"><img data-lazy-src="/images/edt2-z2-1-4.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z2-1-4.png"/></a></li>
+</ul>
+<blockquote>
+<ul>
+<li>如果你当前网络再非<code>CN</code>环境下，将不被允许使用<strong>在线优选</strong>功能，因为<strong>在代理环境下进行在线优选只会得到你代理的优选</strong>，选出来的地区基本上都是你<strong>代理所属地区</strong>，而延迟也是你<strong>代理延迟</strong>，可以说是毫无意义的。</li>
+<li>如果你是身处国外并且直连尝试在线优选，也毫无意义，因为也就只有在<code>CN</code>环境下，因为国内没有CF数据中心，所以才能实现直连多国数据中心，所以才需要优选。<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z2-1-0.png" href="/images/edt2-z2-1-0.png"><img data-lazy-src="/images/edt2-z2-1-0.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z2-1-0.png"/></a></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<hr/>
+</details>
+<details>
+<summary>「 🔌 点击展开 <b>自定义优选 - 优选API</b> 图文教程 」</summary>
+<h4 id="🔌-优选API"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%94%8C-%E4%BC%98%E9%80%89API" title="🔌 优选API"></a>🔌 优选API</h4><ol>
+<li>接入<strong>普通文本API</strong></li>
+</ol>
+<ul>
+<li><p>例如 <code>https://cf.090227.xyz/ct</code>，后点击<code>可用性验证</code>按钮；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z3-1-1.png" href="/images/edt2-z3-1-1.png"><img data-lazy-src="/images/edt2-z3-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z3-1-1.png"/></a></p>
+</li>
+<li><p>如返回格符合<code>IP域名:端口#备注</code>，每行一条记录格式，则代表API可用；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z3-2-1.png" href="/images/edt2-z3-2-1.png"><img data-lazy-src="/images/edt2-z3-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z3-2-1.png"/></a></p>
+</li>
+<li><p>如果仅是一次性导入，无需实时自动更新，则点击<code>追加结果</code>，需要实时获取数据，则点击<code>追加API</code>，然后点击<code>保存</code>；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z3-2-2.png" href="/images/edt2-z3-2-2.png"><img data-lazy-src="/images/edt2-z3-2-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z3-2-2.png"/></a></p>
+</li>
+<li><p>订阅呈现的效果如下：<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z3-3-1.png" href="/images/edt2-z3-3-1.png"><img data-lazy-src="/images/edt2-z3-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z3-3-1.png"/></a></p>
+</li>
+</ul>
+<hr/>
+<ol start="2">
+<li>接入<a href="https://github.com/XIU2/CloudflareSpeedTest" rel="noopener" target="_blank">XIU2/CloudflareSpeedTest</a>项目，测速csv结果文件</li>
+</ol>
+<ul>
+<li><p>例如 <code>https://github.com/cmliu/WorkerVless2sub/raw/refs/heads/main/CloudflareSpeedTest.csv</code>，填写测速对应的<code>默认端口</code>后，点击<code>可用性验证</code>按钮；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z4-1-1.png" href="/images/edt2-z4-1-1.png"><img data-lazy-src="/images/edt2-z4-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z4-1-1.png"/></a></p>
+</li>
+<li><p>如返回格符合<code>IP域名:端口#备注</code>，每行一条记录格式，则代表API可用，；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z4-2-1.png" href="/images/edt2-z4-2-1.png"><img data-lazy-src="/images/edt2-z4-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z4-2-1.png"/></a></p>
+</li>
+<li><p>如果仅是一次性导入，无需实时自动更新，则点击<code>追加结果</code>，需要实时获取数据，则点击<code>追加API</code>，然后点击<code>保存</code>；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z4-2-2.png" href="/images/edt2-z4-2-2.png"><img data-lazy-src="/images/edt2-z4-2-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z4-2-2.png"/></a></p>
+</li>
+<li><p>订阅呈现的效果如下：<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z4-3-1.png" href="/images/edt2-z4-3-1.png"><img data-lazy-src="/images/edt2-z4-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z4-3-1.png"/></a></p>
+</li>
+</ul>
+<hr/>
+<ol start="3">
+<li>接入<strong>iptest</strong>项目，测速csv结果文件</li>
+</ol>
+<ul>
+<li><p>例如 <code>https://raw.githubusercontent.com/cmliu/WorkerVless2sub/refs/heads/main/addressescsv.csv</code>，点击<code>可用性验证</code>按钮；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z5-1-1.png" href="/images/edt2-z5-1-1.png"><img data-lazy-src="/images/edt2-z5-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z5-1-1.png"/></a></p>
+</li>
+<li><p>如返回格符合<code>IP域名:端口#备注</code>，每行一条记录格式，则代表API可用；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z5-2-1.png" href="/images/edt2-z5-2-1.png"><img data-lazy-src="/images/edt2-z5-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z5-2-1.png"/></a></p>
+</li>
+<li><p>如果仅是一次性导入，无需实时自动更新，则点击<code>追加结果</code>，需要实时获取数据，则点击<code>追加API</code>，然后点击<code>保存</code>；<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z5-2-2.png" href="/images/edt2-z5-2-2.png"><img data-lazy-src="/images/edt2-z5-2-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z5-2-2.png"/></a></p>
+</li>
+<li><p>订阅呈现的效果如下：<br/><a data-caption="" data-fancybox="gallery" data-thumb="/images/edt2-z5-3-1.png" href="/images/edt2-z5-3-1.png"><img data-lazy-src="/images/edt2-z5-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-z5-3-1.png"/></a></p>
+</li>
+</ul>
+</details>
+<hr/>
+<h3 id="🛋️-优选订阅生成器-偷懒"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%9B%8B%EF%B8%8F-%E4%BC%98%E9%80%89%E8%AE%A2%E9%98%85%E7%94%9F%E6%88%90%E5%99%A8-%E5%81%B7%E6%87%92" title="🛋️ 优选订阅生成器 - 偷懒"></a>🛋️ 优选订阅生成器 - <strong>偷懒</strong></h3><ul>
+<li>让大佬坐上来自己动，站在巨人的肩膀上，<strong>直接使用大佬的优选订阅生成器的优选结果</strong>，<a href="https://t.me/CMLiussss" rel="noopener" target="_blank">CMLiussss 技术交流群</a>置顶里收集了众多大佬的优选订阅生成器，大家可以自行选择。</li>
+</ul>
+<details>
+<summary>「 🚀 点击展开 <b>优选订阅生成器</b> 图文教程 」</summary>
+<ol>
+<li><p>加入<a href="https://t.me/CMLiussss" rel="noopener" target="_blank">CMLiussss 技术交流群</a>，在群组置顶信息里找到<strong>优选订阅按钮</strong><br/><a data-caption="优选订阅生成器" data-fancybox="gallery" data-thumb="/images/edt2-2-1-3-1.png" href="/images/edt2-2-1-3-1.png"><img alt="优选订阅生成器" data-lazy-src="/images/edt2-2-1-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-3-1.png"/></a></p>
+</li>
+<li><p>复制优选订阅器的<code>变量SUB</code>对应的值备用<br/><a data-caption="复制变量SUB" data-fancybox="gallery" data-thumb="/images/edt2-2-1-3-2.png" href="/images/edt2-2-1-3-2.png"><img alt="复制变量SUB" data-lazy-src="/images/edt2-2-1-3-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-3-2.png"/></a></p>
+</li>
+<li><p>填入<strong>优选订阅生成器</strong>，点击保存即可<br/><a data-caption="填写优选订阅生成器" data-fancybox="gallery" data-thumb="/images/edt2-2-1-3-3.png" href="/images/edt2-2-1-3-3.png"><img alt="填写优选订阅生成器" data-lazy-src="/images/edt2-2-1-3-3.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-3-3.png"/></a></p>
+</li>
+</ol>
+<ul>
+<li>订阅呈现的效果如下：<br/><a data-caption="呈现效果" data-fancybox="gallery" data-thumb="/images/edt2-2-1-3-4.png" href="/images/edt2-2-1-3-4.png"><img alt="呈现效果" data-lazy-src="/images/edt2-2-1-3-4.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-3-4.png"/></a></li>
+</ul>
+</details>
+<hr/>
+<h2 id="🧪-VLESS-Trojan-协议切换"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%A7%AA-VLESS-Trojan-%E5%8D%8F%E8%AE%AE%E5%88%87%E6%8D%A2" title="🧪 VLESS/Trojan 协议切换"></a>🧪 VLESS/Trojan 协议切换</h2><p><a data-caption="呈现效果" data-fancybox="gallery" data-thumb="/images/edt2-vt1-1-0.png" href="/images/edt2-vt1-1-0.png"><img alt="呈现效果" class="entered loaded" data-lazy-src="/images/edt2-vt1-1-0.png" data-ll-status="loaded" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-vt1-1-0.png"/></a></p>
+<details>
+<summary>「 🚀 点击展开 <b>VLESS/Trojan 协议切换</b> 图文教程 」</summary>
+<ol>
+<li><p>返回 Edgetunnel2.0 管理页面，<code>⚙️ 详细配置信息</code> &gt; <code>节点协议</code>，选择你需要的代理协议后，<br/><a data-caption="协议切换" data-fancybox="gallery" data-thumb="/images/edt2-vt1-1-1.png" href="/images/edt2-vt1-1-1.png"><img alt="协议切换" data-lazy-src="/images/edt2-vt1-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-vt1-1-1.png"/></a></p>
+</li>
+<li><p>点击<code>保存</code>后，更新订阅即可生效；<br/><a data-caption="保存协议" data-fancybox="gallery" data-thumb="/images/edt2-vt1-2-1.png" href="/images/edt2-vt1-2-1.png"><img alt="保存协议" data-lazy-src="/images/edt2-vt1-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-vt1-2-1.png"/></a></p>
+</li>
+</ol>
+</details>
+<hr/>
+<h2 id="🔔-设置-Telegram-Bot-通知"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%94%94-%E8%AE%BE%E7%BD%AE-Telegram-Bot-%E9%80%9A%E7%9F%A5" title="🔔 设置 Telegram Bot 通知"></a>🔔 设置 <strong>Telegram Bot 通知</strong></h2><p><a data-caption="可用请求数统计" data-fancybox="gallery" data-thumb="/images/edt2-t1-1-0.png" href="/images/edt2-t1-1-0.png"><img alt="可用请求数统计" class="entered loaded" data-lazy-src="/images/edt2-t1-1-0.png" data-ll-status="loaded" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-1-0.png"/></a></p>
+<details>
+<summary>「 🚀 点击展开 <b>Telegram Bot 通知</b> 图文教程 」</summary>
+<ol>
+<li><p>添加 <a href="https://t.me/BotFather" rel="noopener" target="_blank">@BotFather</a> ，发送<code>/newbot</code> 创建Bot，复制<code>Bot Token</code>备用；</p>
+<ul>
+<li>例如：<code>8598918055:AAH50RfGC9tGTRoNKu9GaNSWcEfawUk5eh0</code><br/><a data-caption="创建Bot" data-fancybox="gallery" data-thumb="/images/edt2-t1-1-1.png" href="/images/edt2-t1-1-1.png"><img alt="创建Bot" data-lazy-src="/images/edt2-t1-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-1-1.png"/></a></li>
+</ul>
+</li>
+<li><p>点击你的bot链接，例如 <code>t.me/cm_edt2_bot</code> ，点击<code>开始 / start</code>按钮，启用你的机器人；<br/><a data-caption="启用机器人" data-fancybox="gallery" data-thumb="/images/edt2-t1-2-1.png" href="/images/edt2-t1-2-1.png"><img alt="启用机器人" data-lazy-src="/images/edt2-t1-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-2-1.png"/></a></p>
+</li>
+<li><p>加入 <a href="https://t.me/CMLiussss" rel="noopener" target="_blank">CMLiussss 技术交流群</a>，发送 <code>/id@nmnmfunbot</code> 命令获取你的 <code>Chat ID</code>，复制备用；</p>
+<ul>
+<li>例如：<code>6946996027</code><br/><a data-caption="获取Chat ID" data-fancybox="gallery" data-thumb="/images/edt2-t1-3-1.png" href="/images/edt2-t1-3-1.png"><img alt="获取Chat ID" data-lazy-src="/images/edt2-t1-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-3-1.png"/></a></li>
+</ul>
+</li>
+<li><p>返回 Edgetunnel2.0 管理页面，<code>🔔 消息通知设置</code> &gt; <code>Telegram Bot 通知</code> &gt; <code>⚙️参数配置</code>，<br/><a data-caption="参数配置" data-fancybox="gallery" data-thumb="/images/edt2-t1-4-1.png" href="/images/edt2-t1-4-1.png"><img alt="参数配置" data-lazy-src="/images/edt2-t1-4-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-4-1.png"/></a></p>
+</li>
+<li><p>填写<code>Bot Token</code>和<code>Chat ID</code>参数，并点击<code>可用性验证</code>；<br/><a data-caption="参数填写" data-fancybox="gallery" data-thumb="/images/edt2-t1-5-1.png" href="/images/edt2-t1-5-1.png"><img alt="参数填写" data-lazy-src="/images/edt2-t1-5-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-5-1.png"/></a></p>
+</li>
+<li><p>如提示<code>✅ Bot Token 和 Chat ID 均有效</code>，则代表配置无误，点击<code>保存</code>即可，<br/><a data-caption="保存" data-fancybox="gallery" data-thumb="/images/edt2-t1-6-1.png" href="/images/edt2-t1-6-1.png"><img alt="保存" data-lazy-src="/images/edt2-t1-6-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-6-1.png"/></a></p>
+<ul>
+<li>同时机器人也会同步提示<code>✅ Telegram 通知配置已验证成功！</code>；<br/><a data-caption="机器人提示" data-fancybox="gallery" data-thumb="/images/edt2-t1-6-2.png" href="/images/edt2-t1-6-2.png"><img alt="机器人提示" data-lazy-src="/images/edt2-t1-6-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-6-2.png"/></a></li>
+</ul>
+</li>
+<li><p>配置完成后，勾选 <code>Telegram Bot 通知</code> &gt; <code>启用</code> &gt; <code>保存</code> 即可，<br/><a data-caption="启用通知" data-fancybox="gallery" data-thumb="/images/edt2-t1-7-1.png" href="/images/edt2-t1-7-1.png"><img alt="启用通知" data-lazy-src="/images/edt2-t1-7-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-t1-7-1.png"/></a></p>
+</li>
+</ol>
+<ul>
+<li>之后<strong>登录管理页面</strong>或<strong>获取订阅</strong>等操作时，均会同步收到机器人通知；</li>
+</ul>
+</details>
+<hr/>
+<h2 id="📊-设置-Workers-Pages-可用请求数统计"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%93%8A-%E8%AE%BE%E7%BD%AE-Workers-Pages-%E5%8F%AF%E7%94%A8%E8%AF%B7%E6%B1%82%E6%95%B0%E7%BB%9F%E8%AE%A1" title="📊 设置 Workers/Pages 可用请求数统计"></a>📊 设置 <strong>Workers/Pages 可用请求数统计</strong></h2><p><a data-caption="可用请求数统计" data-fancybox="gallery" data-thumb="/images/edt2-cf1-0-1.png" href="/images/edt2-cf1-0-1.png"><img alt="可用请求数统计" class="entered loaded" data-lazy-src="/images/edt2-cf1-0-1.png" data-ll-status="loaded" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-0-1.png"/></a></p>
+<details>
+<summary>「 🚀 点击展开 <b>Workers/Pages 可用请求数统计</b> 图文教程 」</summary>
+<ol>
+<li><p>登录 Cloudflare，点击 <code>计算和 AI</code> &gt; <code>Workers 和 Pages</code> ，复制右下角<code>Account ID</code>备用；</p>
+<ul>
+<li>例如：<code>9b03a30c471a952197b8b8bb6f113456</code><br/><a data-caption="复制Account ID" data-fancybox="gallery" data-thumb="/images/edt2-cf1-1-1.png" href="/images/edt2-cf1-1-1.png"><img alt="复制Account ID" data-lazy-src="/images/edt2-cf1-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-1-1.png"/></a></li>
+</ul>
+</li>
+<li><p>点击左侧<code>管理账户</code> &gt; <code>账户 API 令牌</code> &gt; <code>创建令牌</code>；<br/><a data-caption="创建API令牌" data-fancybox="gallery" data-thumb="/images/edt2-cf1-2-1.png" href="/images/edt2-cf1-2-1.png"><img alt="创建API令牌" data-lazy-src="/images/edt2-cf1-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-2-1.png"/></a></p>
+</li>
+<li><p><strong>API 令牌模板</strong>选择<code>阅读分析数据和日志</code>，点击<code>使用模板</code>；<br/><a data-caption="选择API令牌模板" data-fancybox="gallery" data-thumb="/images/edt2-cf1-3-1.png" href="/images/edt2-cf1-3-1.png"><img alt="选择API令牌模板" data-lazy-src="/images/edt2-cf1-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-3-1.png"/></a></p>
+</li>
+<li><p>区域资源选择<code>账户的所有区域</code>，再选择你的CF账户邮箱后，点击<code>继续以显示摘要</code>；<br/><a data-caption="选择区域资源" data-fancybox="gallery" data-thumb="/images/edt2-cf1-4-1.png" href="/images/edt2-cf1-4-1.png"><img alt="选择区域资源" data-lazy-src="/images/edt2-cf1-4-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-4-1.png"/></a></p>
+</li>
+<li><p>点击<code>创建令牌</code>；<br/><a data-caption="创建令牌" data-fancybox="gallery" data-thumb="/images/edt2-cf1-5-1.png" href="/images/edt2-cf1-5-1.png"><img alt="创建令牌" data-lazy-src="/images/edt2-cf1-5-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-5-1.png"/></a></p>
+</li>
+<li><p>复制<code>API 令牌</code>备用</p>
+<ul>
+<li>例如：<code>UQjdE9xzvK4oq32IaYRX7Z1-123YQvl3qLNwLQxE</code><br/><a data-caption="复制API令牌" data-fancybox="gallery" data-thumb="/images/edt2-cf1-6-1.png" href="/images/edt2-cf1-6-1.png"><img alt="复制API令牌" data-lazy-src="/images/edt2-cf1-6-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-6-1.png"/></a></li>
+</ul>
+</li>
+<li><p>返回 Edgetunnel2.0 管理页面，<code>🔔 消息通知设置</code> &gt; <code>Cloudflare Workers/Pages 可用请求数统计</code> &gt; <code>⚙️参数配置</code>；<br/><a data-caption="进入参数配置" data-fancybox="gallery" data-thumb="/images/edt2-cf1-7-1.png" href="/images/edt2-cf1-7-1.png"><img alt="进入参数配置" data-lazy-src="/images/edt2-cf1-7-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-7-1.png"/></a></p>
+</li>
+<li><p>填写<code>Account ID</code>和<code>API Token</code>参数，并点击<code>可用性验证</code>；<br/><a data-caption="进入参数配置" data-fancybox="gallery" data-thumb="/images/edt2-cf1-8-1.png" href="/images/edt2-cf1-8-1.png"><img alt="进入参数配置" data-lazy-src="/images/edt2-cf1-8-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-8-1.png"/></a></p>
+</li>
+<li><p>如提示<code>✅ 验证成功！</code>并显示出<code>今天的请求配额</code>，则代表配置无误，点击<code>保存</code>即可；<br/><a data-caption="保存配置" data-fancybox="gallery" data-thumb="/images/edt2-cf1-9-1.png" href="/images/edt2-cf1-9-1.png"><img alt="保存配置" data-lazy-src="/images/edt2-cf1-9-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-9-1.png"/></a></p>
+</li>
+<li><p>等待保存成功后自动刷新加载页面，即可看到<code>Workers/Pages 可用请求数统计</code>信息；<br/><a data-caption="可用请求数统计" data-fancybox="gallery" data-thumb="/images/edt2-cf1-0-1.png" href="/images/edt2-cf1-0-1.png"><img alt="可用请求数统计" data-lazy-src="/images/edt2-cf1-0-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-0-1.png"/></a></p>
+</li>
+</ol>
+<ul>
+<li>Clash订阅呈现的效果如下：<br/><a data-caption="可用请求数统计" data-fancybox="gallery" data-thumb="/images/edt2-cf1-0-2.png" href="/images/edt2-cf1-0-2.png"><img alt="可用请求数统计" data-lazy-src="/images/edt2-cf1-0-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-cf1-0-2.png"/></a></li>
+</ul>
+</details>
+<hr/>
+<h2 id="🎉-彩蛋：10w请求次数不够用？单面板管理多节点！"><a class="headerlink" data-pjax-state="" target="_blank" rel="noopener" href="https://eo.blog.cmliussss.com/p/edt2/#%F0%9F%8E%89-%E5%BD%A9%E8%9B%8B%EF%BC%9A10w%E8%AF%B7%E6%B1%82%E6%AC%A1%E6%95%B0%E4%B8%8D%E5%A4%9F%E7%94%A8%EF%BC%9F%E5%8D%95%E9%9D%A2%E6%9D%BF%E7%AE%A1%E7%90%86%E5%A4%9A%E8%8A%82%E7%82%B9%EF%BC%81" title="🎉 彩蛋：10w请求次数不够用？单面板管理多节点！"></a>🎉 彩蛋：10w请求次数不够用？<strong>单面板</strong>管理<strong>多节点</strong>！</h2><ul>
+<li><strong>无敌！</strong>且可以有效降低SNI域名阻断情况(就是批量测试会出现-1的情况)，就是这么简单！就是这么方便！！！</li>
+</ul>
+<blockquote>
+<p><strong>2个账号</strong>部署即可实现<strong>20w请求数</strong>，<strong>同理3个就是30w</strong>，不够就自行续杯；</p>
+</blockquote>
+<ul>
+<li>域名可以使用同一个域名绑定多个自定义域，如：<ul>
+<li><code>edt2.fxxk.cloudns.org</code> 绑定 <strong>第一个 EDT2.0</strong> 作为 <strong>面板</strong></li>
+<li><code>edt2-2.fxxk.cloudns.org</code> 绑定 <strong>第二个 EDT2.0</strong> 作为 <strong>节点</strong></li>
+<li><code>edt2-3.fxxk.cloudns.org</code> 绑定 <strong>第三个 EDT2.0</strong> 作为 <strong>节点</strong></li>
+<li>…</li>
+</ul>
+</li>
+</ul>
+<details open="">
+<summary>「 🚀 点击展开 <b>部署EDT2.0节点 绑定EDT2.0面板</b> 图文教程 」</summary>
+<ol>
+<li><p>前往 <strong>Edgetunnel2.0 管理页面</strong>，复制保存 <code>⚙️ 详细配置信息</code> 内的 <code>UUID</code> 参数备用，例如：</p>
+<ul>
+<li><code>UUID</code>：<strong>8fc6a982-9862-4362-846f-a7039c5e2e47</strong><br/><a data-caption="复制UUID" data-fancybox="gallery" data-thumb="/images/edt2-m1-1-1.png" href="/images/edt2-m1-1-1.png"><img alt="复制UUID" class="entered exited" data-lazy-src="/images/edt2-m1-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-1-1.png"/></a></li>
+</ul>
+</li>
+<li><p><strong>换号换号换号</strong>，用第二个CF账号部署第二个 <strong>Edgetunnel2.0 节点</strong>，依旧需要 <a href="https://github.com/cmliu/edgetunnel/archive/refs/heads/main.zip" rel="noopener" target="_blank">edgetunnel-main.zip</a> 压缩包：<br/><a data-caption="创建Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-1-2-0.png" href="/images/edt2-1-2-0.png"><img alt="创建Pages应用程序" class="entered loaded" data-lazy-src="/images/edt2-1-2-0.png" data-ll-status="loaded" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-2-0.png"/></a><br/><a data-caption="创建Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-1-3-1.png" href="/images/edt2-1-3-1.png"><img alt="创建Pages应用程序" class="entered exited" data-lazy-src="/images/edt2-1-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-3-1.png"/></a><br/><a data-caption="创建Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-m1-2-1.png" href="/images/edt2-m1-2-1.png"><img alt="创建Pages应用程序" class="entered exited" data-lazy-src="/images/edt2-m1-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-2-1.png"/></a><br/><a data-caption="上传项目压缩包" data-fancybox="gallery" data-thumb="/images/edt2-1-5-1.png" href="/images/edt2-1-5-1.png"><img alt="上传项目压缩包" class="entered exited" data-lazy-src="/images/edt2-1-5-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-5-1.png"/></a><br/><a data-caption="部署Pages应用程序" data-fancybox="gallery" data-thumb="/images/edt2-1-6-1.png" href="/images/edt2-1-6-1.png"><img alt="部署Pages应用程序" class="entered exited" data-lazy-src="/images/edt2-1-6-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-1-6-1.png"/></a><br/><a data-caption="部署成功" data-fancybox="gallery" data-thumb="/images/edt2-m1-2-2.png" href="/images/edt2-m1-2-2.png"><img alt="部署成功" class="entered exited" data-lazy-src="/images/edt2-m1-2-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-2-2.png"/></a></p>
+</li>
+<li><p>进入项目设置页面，点击 <code>设置</code> 选项卡，添加变量和机密：<br/><a data-caption="进入项目设置页面" data-fancybox="gallery" data-thumb="/images/edt2-2-1-1.png" href="/images/edt2-2-1-1.png"><img alt="进入项目设置页面" class="entered exited" data-lazy-src="/images/edt2-2-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-2-1-1.png"/></a></p>
+</li>
+<li><p>点击 <code>+ 添加</code>，类型 <code>文本</code> 变量名称 <code>UUID</code> 变量，变量值为刚才复制出来备用的<strong>UUID</strong>后，点击<code>保存</code>；<br/><a data-caption="添加UUID变量" data-fancybox="gallery" data-thumb="/images/edt2-m1-4-1.png" href="/images/edt2-m1-4-1.png"><img alt="添加UUID变量" class="entered exited" data-lazy-src="/images/edt2-m1-4-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-4-1.png"/></a></p>
+</li>
+<li><p>点击右上角 <code>创建部署</code> ，重新上传项目压缩包 <code>edgetunnel-main.zip</code> ；<br/><a data-caption="重试部署" data-fancybox="gallery" data-thumb="/images/edt2-4-1-1.png" href="/images/edt2-4-1-1.png"><img alt="重试部署" class="entered exited" data-lazy-src="/images/edt2-4-1-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-4-1-1.png"/></a></p>
+</li>
+<li><p>部署环境选择 <code>生产</code>，点击 <code>从计算机中选择</code> &gt; <code>上传压缩文件</code>，选择第一步下载的 <code>edgetunnel-main.zip</code> 压缩包，等待上传完成；<br/><a data-caption="重试部署上传压缩包" data-fancybox="gallery" data-thumb="/images/edt2-4-2-1.png" href="/images/edt2-4-2-1.png"><img alt="重试部署上传压缩包" class="entered exited" data-lazy-src="/images/edt2-4-2-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-4-2-1.png"/></a></p>
+</li>
+<li><p>点击 <code>保存并部署</code>，等待部署完成；<br/><a data-caption="重试部署保存并部署" data-fancybox="gallery" data-thumb="/images/edt2-4-3-1.png" href="/images/edt2-4-3-1.png"><img alt="重试部署保存并部署" class="entered exited" data-lazy-src="/images/edt2-4-3-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-4-3-1.png"/></a><br/><a data-caption="重试部署等待完成" data-fancybox="gallery" data-thumb="/images/edt2-m1-7-1.png" href="/images/edt2-m1-7-1.png"><img alt="重试部署等待完成" class="entered exited" data-lazy-src="/images/edt2-m1-7-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-7-1.png"/></a></p>
+</li>
+<li><p>进入 Pages 应用程序，点击 <code>自定义域</code> 选项卡，点击 <code>设置自定义域</code> ；<br/><a data-caption="设置自定义域" data-fancybox="gallery" data-thumb="/images/edt2-m1-8-1.png" href="/images/edt2-m1-8-1.png"><img alt="设置自定义域" class="entered exited" data-lazy-src="/images/edt2-m1-8-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-8-1.png"/></a></p>
+</li>
+<li><p>添加自定义域，<strong>必须必须必须</strong>不和面板域名一样即可，例如 <strong>edt2-2.</strong>fxxk.cloudns.org<br/><a data-caption="添加自定义域" data-fancybox="gallery" data-thumb="/images/edt2-m1-9-1.png" href="/images/edt2-m1-9-1.png"><img alt="添加自定义域" class="entered exited" data-lazy-src="/images/edt2-m1-9-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-9-1.png"/></a></p>
+</li>
+</ol>
+<ul>
+<li>后续步骤同上绑定CNAME记录，等待域名验证成功即可；<br/><a data-caption="等待提示绑定成功" data-fancybox="gallery" data-thumb="/images/edt2-m1-9-2.png" href="/images/edt2-m1-9-2.png"><img alt="等待提示绑定成功" class="entered exited" data-lazy-src="/images/edt2-m1-9-2.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-9-2.png"/></a></li>
+</ul>
+<ol start="10">
+<li>点击修改 <code>⚙️ 详细配置信息</code> 内的 <code>HOST</code> 参数，加上你的 <strong>第二个EDT2 节点</strong> 的 <strong>HOST</strong>，例如 <code>edt2-2.fxxk.cloudns.org</code>，然后点击 <code>保存</code> 即可；<br/><a data-caption="修改HOST" data-fancybox="gallery" data-thumb="/images/edt2-m1-10-1.png" href="/images/edt2-m1-10-1.png"><img alt="修改HOST" class="entered exited" data-lazy-src="/images/edt2-m1-10-1.png" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-10-1.png"/></a><br/><a data-caption="修改HOST" data-fancybox="gallery" data-thumb="/images/edt2-m1-10-2.png" href="/images/edt2-m1-10-2.png"><img alt="修改HOST" class="entered error" data-lazy-src="/images/edt2-m1-10-2.png" data-ll-status="error" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-10-2.png"/></a><br/><a data-caption="修改HOST" data-fancybox="gallery" data-thumb="/images/edt2-m1-10-3.png" href="/images/edt2-m1-10-3.png"><img alt="修改HOST" class="entered error" data-lazy-src="/images/edt2-m1-10-3.png" data-ll-status="error" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m1-10-3.png"/></a></li>
+</ol>
+<ul>
+<li>订阅呈现的效果如下：<br/><a data-caption="呈现效果" data-fancybox="gallery" data-thumb="/images/edt2-m0-1-1.png" href="/images/edt2-m0-1-1.png"><img alt="呈现效果" class="entered error" data-lazy-src="/images/edt2-m0-1-1.png" data-ll-status="error" onerror='this.onerror=null,this.src="/img/404.jpg"' src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-m0-1-1.png"/></a></li>
+</ul>
+</details>
+<hr/>
+<p>新人<a href="https://www.youtube.com/@CMLiussss" rel="noopener" target="_blank">Youtuber</a>，需要您的支持，请务必帮我<strong>点赞</strong>、<strong>关注</strong>、<strong>打开小铃铛</strong>，<em><strong>十分感谢！！！</strong></em></p>
+</article>
+
+
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/41/4d/4d414d34-8d1a-6414-d3d4-7e8862e4c529/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/41/4d/4d414d34-8d1a-6414-d3d4-7e8862e4c529/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg" title="头像" alt="头像"></a><div class="post-copyright__author_name">AI-科技</div><div class="post-copyright__author_desc">ai-科技</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://yujiayulener.eu.org/2026/11/07/2026-11-07-Edgetunnel2/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://yujiayulener.eu.org/2026/11/07/2026-11-07-Edgetunnel2/')">🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://yujiayulener.eu.org/2026/11/07/2026-11-07-Edgetunnel2/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=undefined&amp;url=https://yujiayulener.eu.org/2026/11/07/2026-11-07-Edgetunnel2/&amp;pic=undefined" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://yujiayulener.eu.org" target="_blank">夕晴照雪霁无瑕</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__category-list"><a class="post-meta__box__categoryes" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"><span class="categoryes-punctuation"> <i class="anzhiyufont anzhiyu-icon-inbox"></i></span>技术分享<span class="categoryesPageCount">1</span></a></div><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/Edgetunnel/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Edgetunnel<span class="tagsPageCount">1</span></a><a class="post-meta__box__tags" href="/tags/Cloudflare/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Cloudflare<span class="tagsPageCount">1</span></a><a class="post-meta__box__tags" href="/tags/Pages/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Pages<span class="tagsPageCount">1</span></a></div></div><div class="post_share"><div class="social-share" data-image="/images/edt2-demo.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2024/12/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E7%9A%84%E6%9C%AA%E6%9D%A5%EF%BC%9A%E5%8F%98%E9%9D%A9%E4%BA%A4%E9%80%9A%E7%9A%84%E7%A7%91%E6%8A%80/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/autonomous-driving-equipment.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">自动驾驶汽车的未来：技术、应用与安全</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/41/4d/4d414d34-8d1a-6414-d3d4-7e8862e4c529/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2021/01/15/d328489d9918c.gif" alt="status"/></div></div><div class="author-info__description"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/planeBg.png" style="width:100%;"><div class="planeOpt"><p>退出：<kbd>esc</kbd></p><p>方向控制： <kbd>←</kbd><kbd>↑</kbd><kbd>→</kbd></p><p>射击：<kbd>Space</kbd></p><p>轰炸：<kbd>B</kbd></p><div style="display:flex;justify-content:center;"><button onclick="const s =document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='/js/plane.js';void(0);"><div class="svg-wrapper-1"><div class="svg-wrapper"><svg height="20" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"fill="currentColor"></path></svg></div></div><span>开始游戏</span></button></div></div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">AI-科技</h1><div class="author-info__desc">ai-科技</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/anzhiyu-c" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/372204786" target="_blank" title="BiliBili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a></div></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bullhorn anzhiyu-shake"></i><span>公告</span></div><div class="announcement_content"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/planeBg.png" style="width:100%;"><div class="planeOpt"><p>退出：<kbd>esc</kbd></p><p>方向控制： <kbd>←</kbd><kbd>↑</kbd><kbd>→</kbd></p><p>射击：<kbd>Space</kbd></p><p>轰炸：<kbd>B</kbd></p><div style="display:flex;justify-content:center;"><button onclick="const s =document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='/js/plane.js';void(0);"><div class="svg-wrapper-1"><div class="svg-wrapper"><svg height="20" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"fill="currentColor"></path></svg></div></div><span>开始游戏</span></button></div></div></div></div><div class="card-widget anzhiyu-right-widget" id="card-wechat" onclick="null"><div id="flip-wrapper"><div id="flip-content"><div class="face" style="background: url(https://bu.dusays.com/2023/01/13/63c02edf44033.png) center center / 100% no-repeat"></div><div class="back face" style="background: url(https://bu.dusays.com/2023/05/13/645fa415e8694.png) center center / 100% no-repeat"></div></div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/11/07/2026-11-07-Edgetunnel2/" title="🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/edt2-demo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！"/></a><div class="content"><a class="title" href="/2026/11/07/2026-11-07-Edgetunnel2/" title="🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！">🚀 Edgetunnel2.0 全新版本，🎯 就是这么简单！✨ 就是这么方便！</a><time datetime="2026-11-06T16:00:00.000Z" title="发表于 2026-11-07 00:00:00">2026-11-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/12/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E7%9A%84%E6%9C%AA%E6%9D%A5%EF%BC%9A%E5%8F%98%E9%9D%A9%E4%BA%A4%E9%80%9A%E7%9A%84%E7%A7%91%E6%8A%80/" title="自动驾驶汽车的未来：技术、应用与安全"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/autonomous-driving-equipment.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="自动驾驶汽车的未来：技术、应用与安全"/></a><div class="content"><a class="title" href="/2024/12/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E7%9A%84%E6%9C%AA%E6%9D%A5%EF%BC%9A%E5%8F%98%E9%9D%A9%E4%BA%A4%E9%80%9A%E7%9A%84%E7%A7%91%E6%8A%80/" title="自动驾驶汽车的未来：技术、应用与安全">自动驾驶汽车的未来：技术、应用与安全</a><time datetime="2024-12-01T16:00:00.000Z" title="发表于 2024-12-02 00:00:00">2024-12-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/12/02/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%96%87%E7%AB%A0/" title="人工智能的未来：探索 AI 的前沿"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/ai-neural-network.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="人工智能的未来：探索 AI 的前沿"/></a><div class="content"><a class="title" href="/2024/12/02/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%96%87%E7%AB%A0/" title="人工智能的未来：探索 AI 的前沿">人工智能的未来：探索 AI 的前沿</a><time datetime="2024-12-01T16:00:00.000Z" title="发表于 2024-12-02 00:00:00">2024-12-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/30/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%96%87%E7%AB%A0/" title="人工智能的光明未来：应用与责任"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/images/ai-neural-network.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="人工智能的光明未来：应用与责任"/></a><div class="content"><a class="title" href="/2024/11/30/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%96%87%E7%AB%A0/" title="人工智能的光明未来：应用与责任">人工智能的光明未来：应用与责任</a><time datetime="2024-11-29T16:00:00.000Z" title="发表于 2024-11-30 00:00:00">2024-11-30</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="workboard"><img class="workSituationImg boardsign" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/anzhiyu-上班摸鱼中.svg" alt="距离月入25k也就还差一个大佬带我~" title="距离月入25k也就还差一个大佬带我~"/><div id="runtimeTextTip"></div></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v5.4.0" title="博客框架为Hexo_v5.4.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"/></a><a class="github-badge" target="_blank" href="https://blog.anheyu.com/" style="margin-inline:5px" data-title="本站使用AnZhiYu主题" title="本站使用AnZhiYu主题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg" alt="本站使用AnZhiYu主题"/></a><a class="github-badge" target="_blank" href="https://www.dogecloud.com/" style="margin-inline:5px" data-title="本站使用多吉云为静态资源提供CDN加速" title="本站使用多吉云为静态资源提供CDN加速"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg" alt="本站使用多吉云为静态资源提供CDN加速"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title="本站项目由Github托管"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg" alt="本站项目由Github托管"/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg" alt="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"/></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2026 By <a class="footer-bar-link" href="/" title="AI-科技" target="_blank">AI-科技</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">11</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">4</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/fcircle/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> 朋友圈</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-dice-d20 faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/music/"><span> 音乐馆</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AI/" style="font-size: 0.88rem;">AI<sup>1</sup></a><a href="/tags/Cloudflare/" style="font-size: 0.88rem;">Cloudflare<sup>1</sup></a><a href="/tags/Edgetunnel/" style="font-size: 0.88rem;">Edgetunnel<sup>1</sup></a><a href="/tags/Pages/" style="font-size: 0.88rem;">Pages<sup>1</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 0.88rem;">人工智能<sup>2</sup></a><a href="/tags/%E5%89%8D%E6%99%AF/" style="font-size: 0.88rem;">前景<sup>1</sup></a><a href="/tags/%E5%BA%94%E7%94%A8/" style="font-size: 0.88rem;">应用<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 0.88rem;">技术<sup>1</sup></a><a href="/tags/%E6%9C%AA%E6%9D%A5/" style="font-size: 0.88rem;">未来<sup>3</sup></a><a href="/tags/%E7%A7%91%E6%8A%80/" style="font-size: 0.88rem;">科技<sup>2</sup></a><a href="/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/" style="font-size: 0.88rem;">自动驾驶<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2020 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 AI-科技 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script async="async">(function () {
+  var grt = new Date("04/01/2021 00:00:00"); //设置网站上线时间
+  var now = new Date();
+  var dnum;
+  var hnum;
+  var mnum;
+  var snum;
+  var nowHour;
+
+  // 计算并更新天数、小时数、分钟数和秒数
+  function updateTime() {
+    now = new Date(); // 更新 now 的值
+    nowHour = now.getHours(); // 更新 nowHour 的值
+    var days = (now - grt) / 1000 / 60 / 60 / 24;
+    dnum = Math.floor(days);
+    var hours = (now - grt) / 1000 / 60 / 60 - 24 * dnum;
+    hnum = Math.floor(hours);
+    if (String(hnum).length == 1) {
+      hnum = "0" + hnum;
+    }
+    var minutes = (now - grt) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+    mnum = Math.floor(minutes);
+    if (String(mnum).length == 1) {
+      mnum = "0" + mnum;
+    }
+    var seconds = (now - grt) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+    snum = Math.round(seconds);
+    if (String(snum).length == 1) {
+      snum = "0" + snum;
+    }
+  }
+
+  // 更新网页中显示的网站运行时间
+  function updateHtml() {
+    const footer = document.getElementById("footer");
+    if (!footer) return
+    let currentTimeHtml = "";
+    if (nowHour < 18 && nowHour >= 9) {
+      // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    } else {
+      // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
+      let img = document.querySelector("#workboard .workSituationImg");
+      if (img != null) {
+        img.src = "https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/anzhiyu-下班啦.svg";
+        img.title = "下班了就该开开心心的玩耍，嘿嘿~";
+        img.alt = "下班了就该开开心心的玩耍，嘿嘿~";
+      }
+
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    }
+
+    if (document.getElementById("runtimeTextTip")) {
+      document.getElementById("runtimeTextTip").innerHTML = currentTimeHtml;
+    }
+  }
+
+  setInterval(() => {
+    updateTime();
+    updateHtml();
+  }, 1000);
+})();</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
