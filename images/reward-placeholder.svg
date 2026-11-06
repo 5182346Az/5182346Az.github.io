@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+<title id="title">收款码待更换</title><desc id="desc">这里是收款码替换占位图，不可用于付款</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0f2fe"/><stop offset=".55" stop-color="#ede9fe"/><stop offset="1" stop-color="#ffedd5"/></linearGradient><linearGradient id="card" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f8fbff"/></linearGradient></defs>
+<rect x="8" y="8" width="544" height="404" rx="34" fill="url(#bg)"/><circle cx="465" cy="84" r="52" fill="#fbbf24" opacity=".7"/><circle cx="86" cy="350" r="63" fill="#38bdf8" opacity=".25"/>
+<rect x="82" y="50" width="396" height="320" rx="28" fill="url(#card)" stroke="#fff" stroke-width="4"/>
+<circle cx="280" cy="145" r="51" fill="#e0e7ff"/><path d="M280 111v68M246 145h68" stroke="#6366f1" stroke-width="10" stroke-linecap="round"/><circle cx="280" cy="145" r="32" fill="none" stroke="#8b5cf6" stroke-width="5" stroke-dasharray="5 8"/>
+<text x="280" y="237" text-anchor="middle" fill="#1e293b" font-size="27" font-family="Microsoft YaHei,sans-serif" font-weight="700">收款图片待替换</text>
+<text x="280" y="278" text-anchor="middle" fill="#64748b" font-size="18" font-family="Microsoft YaHei,sans-serif">请换成你自己的二维码图片</text>
+<rect x="151" y="306" width="258" height="36" rx="18" fill="#eff6ff"/><text x="280" y="330" text-anchor="middle" fill="#2563eb" font-size="16" font-family="Microsoft YaHei,sans-serif" font-weight="700">当前图片不能扫码付款</text>
+</svg>
