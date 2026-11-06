@@ -47,28 +47,11 @@
 [data-theme="dark"] #article-container .post-info-card .post-info-note { background:rgba(15,23,42,.45); color:#e2e8f0; }
 [data-theme="dark"] #article-container thead { background:linear-gradient(90deg,#1e3a5f,#382c5c); color:#e0e7ff; }
 
-/* Colorful platform sharing controls in the article copyright card */
-#post-tools .share-platforms { display:flex; flex-wrap:wrap; align-items:center; gap:.55rem; margin:.4rem 0 .35rem; }
-#post-tools .share-platform { display:inline-flex; align-items:center; gap:.42rem; min-height:40px; padding:.35rem .68rem; border:1px solid rgba(100,116,139,.18); border-radius:999px; background:rgba(255,255,255,.88); color:#263449; font-size:.86rem;font-weight:600;line-height:1.2; text-decoration:none; cursor:pointer; transition:transform .18s ease,box-shadow .18s ease,background .18s ease; }
-#post-tools .share-platform:hover { transform:translateY(-2px); box-shadow:0 5px 14px rgba(30,64,175,.14); }
-#post-tools .share-platform-icon { display:inline-grid; place-items:center; width:26px; height:26px; border-radius:50%; color:white; font:800 14px/1 Arial,sans-serif; }
-#post-tools .share-x .share-platform-icon { background:#111827; }
-#post-tools .share-tiktok .share-platform-icon { background:#111827; color:#fff; text-shadow:-1px 0 #25f4ee,1px 0 #fe2c55; font-size:18px; }
-#post-tools .share-facebook .share-platform-icon { background:#1877f2; font-size:20px; }
-#post-tools .share-instagram .share-platform-icon { background:linear-gradient(135deg,#7c3aed,#ec4899,#f59e0b); font-size:20px; }
-#post-tools .share-linkedin .share-platform-icon { background:#0a66c2; }
-#post-tools .share-telegram .share-platform-icon { background:#229ed9; }
-#post-tools .share-weibo .share-platform-icon { background:#e6162d; }
-#post-tools .share-qq .share-platform-icon { background:#12a8e0; }
-#post-tools .share-qzone .share-platform-icon { background:#f2a900; }
-#post-tools .share-wechat .share-platform-icon { background:#07c160; }
-#post-tools .share-douyin .share-platform-icon { background:#111827; color:#fff; text-shadow:-1px 0 #25f4ee,1px 0 #fe2c55; }
-#post-tools .share-rednote .share-platform-icon { background:#ff2442; }
-#post-tools .share-platform-name { white-space:nowrap; }
-#post-tools .share-platform-hint { margin:.2rem 0 .55rem; color:#64748b; font-size:.82rem; line-height:1.6; }
-#post-tools .share-copied { outline:2px solid rgba(16,185,129,.35); }
-[data-theme="dark"] #post-tools .share-platform { background:rgba(30,41,59,.94); border-color:rgba(148,163,184,.22); color:#f1f5f9; }
-[data-theme="dark"] #post-tools .share-platform-hint { color:#cbd5e1; }
+/* Align official Share.js icons on a centered row directly below post tags */
+#post .post-tag-share { display:flex; flex-direction:column; align-items:stretch; gap:8px; width:100%; }
+#post .post-tag-share .social-share { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:4px; width:100%; margin:0; }
+#post .post-tag-share .social-share-icon { margin:0 2px; flex:0 0 auto; }
+@media (max-width:768px) { #post .post-tag-share .social-share { justify-content:flex-start; } }
 
 /* The requested author and license signature at the end of every post */
 .post-copyright { overflow:hidden; border:1px solid rgba(59,130,246,.20); border-radius:18px; background:linear-gradient(120deg,#eff8ff 0%,#f5f0ff 55%,#fff5eb 100%); box-shadow:0 10px 26px rgba(59,80,140,.09); }
