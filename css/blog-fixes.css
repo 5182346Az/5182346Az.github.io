@@ -1,38 +1,24 @@
-/* 首页侧栏图标横幅与公告栏 */
+/* 首页侧栏滚动图标横幅与公告栏 */
 .card-announcement .announcement_content { box-sizing:border-box; width:100%; overflow:hidden; border-radius:14px; }
 .card-widget.card-announcement { margin-top:14px; }
 .sidebar-creativity-banner {
-  position:relative; box-sizing:border-box; width:100%; height:148px; margin:14px 0 10px;
+  position:relative; box-sizing:border-box; width:100%; height:108px; margin:12px 0 8px;
   overflow:hidden; border:1px solid rgba(99,133,197,.22); border-radius:14px; isolation:isolate;
-  color:#20324d; background:linear-gradient(125deg,#edf5ff 0%,#dceaff 48%,#e8e3ff 100%);
+  background:linear-gradient(125deg,#edf5ff 0%,#dceaff 48%,#e8e3ff 100%);
   box-shadow:0 6px 18px rgba(67,103,163,.12);
 }
-.sidebar-creativity-heading {
-  position:absolute; z-index:2; top:27px; left:16px; display:flex; width:42%; flex-direction:column;
-  color:#243b60; font-size:clamp(17px,1.8vw,22px); font-weight:800; line-height:1.3;
-  overflow-wrap:anywhere; text-shadow:0 1px 0 rgba(255,255,255,.7);
-}
-.sidebar-creativity-site { position:absolute; z-index:2; top:91px; left:16px; color:#58708f; font-size:10px; }
-.sidebar-creativity-window { position:absolute; z-index:1; inset:0 0 0 42%; display:flex; align-items:center; overflow:hidden; pointer-events:none; }
+.sidebar-creativity-window { position:absolute; z-index:1; inset:0; display:flex; align-items:center; overflow:hidden; pointer-events:none; }
 .sidebar-creativity-rotator { position:relative; width:100%; height:100%; display:flex; align-items:center; overflow:visible; }
-.sidebar-creativity-track { display:flex; width:max-content; align-items:center; animation:sidebar-creativity-row 38s linear infinite; will-change:transform; }
-.sidebar-creativity-pair { display:flex; flex:0 0 auto; align-items:center; gap:9px; margin-right:9px; }
-.sidebar-creativity-icon { display:flex; width:54px; height:54px; flex:0 0 54px; align-items:center; justify-content:center; overflow:hidden; border:1px solid rgba(255,255,255,.75); border-radius:15px; box-shadow:0 5px 13px rgba(40,65,105,.16); }
-.sidebar-creativity-icon img { display:block; width:32px; height:32px; object-fit:contain; }
+.sidebar-creativity-track { display:flex; width:max-content; align-items:center; padding:0 8px; animation:sidebar-creativity-row 36s linear infinite; will-change:transform; }
+.sidebar-creativity-pair { display:flex; flex:0 0 auto; align-items:center; gap:7px; margin-right:7px; }
+.sidebar-creativity-icon { display:flex; width:42px; height:42px; flex:0 0 42px; align-items:center; justify-content:center; overflow:hidden; border:1px solid rgba(255,255,255,.8); border-radius:12px; box-shadow:0 4px 11px rgba(40,65,105,.14); }
+.sidebar-creativity-icon img { display:block; width:25px; height:25px; object-fit:contain; }
 @keyframes sidebar-creativity-row { from { transform:translateX(0); } to { transform:translateX(-50%); } }
 .announcement-motion { position:relative; box-sizing:border-box; width:100%; min-height:76px; overflow:hidden; padding:13px 14px; border-radius:12px; color:#fff; background:linear-gradient(120deg,#456fe0,#4b9dd8 55%,#816de0); }
 .announcement-motion-track { display:flex; width:max-content; max-width:none; animation:announcement-scroll 24s linear infinite; color:#fff; font-size:13px; font-weight:700; line-height:1.6; white-space:nowrap; }
 .announcement-motion-track span { flex:0 0 auto; padding-right:2rem; }
 .announcement-motion-note { position:relative; display:block; margin-top:8px; color:#fff; font-size:12px; font-weight:600; text-shadow:0 1px 3px rgba(20,25,60,.4); }
 @keyframes announcement-scroll { from { transform:translateX(0); } to { transform:translateX(-50%); } }
-@media (max-width:900px) {
- .sidebar-creativity-banner { height:132px; }
- .sidebar-creativity-heading { top:23px; width:42%; font-size:18px; }
- .sidebar-creativity-site { top:82px; }
- .sidebar-creativity-window { left:41%; }
- .sidebar-creativity-icon { width:48px; height:48px; flex-basis:48px; border-radius:13px; }
- .sidebar-creativity-icon img { width:29px; height:29px; }
-}
 @media (prefers-reduced-motion:reduce) { .sidebar-creativity-track,.announcement-motion-track { animation-duration:120s; } }
 /* 隐藏误注入的飞机小游戏界面 */
 body .KICKASSELEMENT, body .planeOpt, body [id^='kickass-'] { display:none !important; visibility:hidden !important; pointer-events:none !important; }
