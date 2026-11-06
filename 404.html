@@ -60,7 +60,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2026-11-07 01:43:50',
+  postUpdate: '2026-11-07 02:49:13',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -337,18 +337,9 @@ queueMicrotask(() => {
     if (!footer) return
     let currentTimeHtml = "";
     if (nowHour < 18 && nowHour >= 9) {
-      // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
-      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+      currentTimeHtml = `<span class='work-status-description'>距离月入25k也就还差一个大佬带我~</span> · 已运行 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span>`;
     } else {
-      // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
-      let img = document.querySelector("#workboard .workSituationImg");
-      if (img != null) {
-        img.src = "https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/anzhiyu-下班啦.svg";
-        img.title = "下班了就该开开心心的玩耍，嘿嘿~";
-        img.alt = "下班了就该开开心心的玩耍，嘿嘿~";
-      }
-
-      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+      currentTimeHtml = `<span class='work-status-description'>下班了就该开开心心的玩耍，嘿嘿~</span> · 已运行 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span>`;
     }
 
     if (document.getElementById("runtimeTextTip")) {
