@@ -53,6 +53,13 @@
 #post .post-tag-share .social-share-icon { margin:0 2px; flex:0 0 auto; }
 @media (max-width:768px) { #post .post-tag-share .social-share { justify-content:flex-start; } }
 
+/* Show full author avatar and bring back the announcement portrait */
+.post-copyright__author_img { overflow:visible !important; }
+.post-copyright__author_img img { object-fit:contain !important; border-radius:50%; }
+.post-copyright__author_img_front { background:#fff; }
+.announcement-motion { position:relative; padding-left:48px; }
+.announcement-avatar { position:absolute; left:0; top:50%; width:38px; height:38px; transform:translateY(-50%); object-fit:contain; border-radius:50%; background:#fff; }
+
 /* The requested author and license signature at the end of every post */
 .post-copyright { overflow:hidden; border:1px solid rgba(59,130,246,.20); border-radius:18px; background:linear-gradient(120deg,#eff8ff 0%,#f5f0ff 55%,#fff5eb 100%); box-shadow:0 10px 26px rgba(59,80,140,.09); }
 .post-copyright .post-copyright__author_name { color:#1d4ed8; font-weight:800; }
