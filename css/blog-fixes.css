@@ -54,8 +54,8 @@
 @media (max-width:768px) { #post .post-tag-share .social-share { justify-content:flex-start; } }
 
 /* Show full author avatar and bring back the announcement portrait */
-.post-copyright__author_img { overflow:visible !important; }
-.post-copyright__author_img img { object-fit:contain !important; border-radius:50%; }
+.post-copyright__author_img { overflow:hidden !important; width:66px !important; height:66px !important; }
+.post-copyright__author_img img { inset:0 !important; display:block; width:100% !important; height:100% !important; max-width:none !important; object-fit:cover !important; object-position:center !important; border-radius:50%; }
 .post-copyright__author_img_front { background:#fff; }
 .announcement-motion { position:relative; padding-left:48px; }
 .announcement-avatar { position:absolute; left:0; top:50%; width:38px; height:38px; transform:translateY(-50%); object-fit:contain; border-radius:50%; background:#fff; }
